@@ -16,8 +16,8 @@ For notification functionality, make a free Pushbullet account, generate a user 
 3. From the terminal navigate to the script and run `python XXXXX.py`
 
 **Script Options** - at head of script
-* starccmcommand: Terminal Command to start STAR-CCM+.
-* defuserpswd: Default user password.
-* pushbullettoken: Pushbullet User Token form Pushbullet website.
-* numofcores: number of cores to run the simultions.
+* starccmcommand: Terminal command to start STAR-CCM+.
+* defuserpswd: Default user password. Can also be passed as an argument in script.
+* pushbullettoken: Pushbullet user token from Pushbullet website.
+* numofcores: Number of cores to run the simultions.
 * macrofile: STAR-CCM+ macro file (Java) to be run before running sim. Default is "meshandrun.java".
