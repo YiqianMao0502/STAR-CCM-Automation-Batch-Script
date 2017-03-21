@@ -8,16 +8,16 @@ GNU/Linux Operating system
 Python 3 
 Expect Package Installed
 Curl Package Installed
-For notification functionality, make a free Pushbullet account, generate a user token and install app on smartphone.
+For notification functionality, make a Pushbullet account, generate a user token and install app on smartphone.
 
 **Instructions**
 1. Place all simulation files in the same directory as the script. (no need to generate volume mesh before hand).
 2. Place the macro file "Meshandrun.java" in the same directory as the script.
-3. From the terminal navigate to the script and run `python starccmAuto.py`
+3. From the terminal navigate to the script directory and run `python starccmAuto.py`
 
 **Script Options** - at head of script
 * starccmcommand: Terminal command to start STAR-CCM+.
 * defuserpswd: Default user password. Can also be passed as an argument in script.
 * pushbullettoken: Pushbullet user token from Pushbullet website.
-* numofcores: Number of cores to run the simultions.
-* macrofile: STAR-CCM+ macro file (Java) to be run before running sim. Default is "meshandrun.java".
+* numofcores: Number of cores to run the simulations.
+* macrofile: STAR-CCM+ macro file (Java) to be run before running simulation. Default: "meshandrun.java".
