@@ -13,7 +13,7 @@ For notification functionality, make a free Pushbullet account, generate a user 
 **Instructions**
 1. Place all simulation files in the same directory as the script. (no need to generate volume mesh before hand).
 2. Place the macro file "Meshandrun.java" in the same directory as the script.
-3. From the terminal navigate to the script and run `python XXXXX.py`
+3. From the terminal navigate to the script and run `python starccmAuto.py`
 
 **Script Options** - at head of script
 * starccmcommand: Terminal command to start STAR-CCM+.
