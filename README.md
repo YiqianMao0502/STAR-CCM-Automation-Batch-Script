@@ -8,8 +8,7 @@ GNU/Linux Operating system
 Python 3 
 Expect Package Installed
 Curl Package Installed
-
-For notification functionality, make a free Pushbullet account, generate a user token and install app on smart phone.
+For notification functionality, make a free Pushbullet account, generate a user token and install app on smartphone.
 
 **Instructions**
 1. Place all simulation files in the same directory as the script. (no need to generate volume mesh before hand).
